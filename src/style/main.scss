@@ -1,3 +1,12 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+@import "./app.scss";
+@import "./home.scss";
+@import "./search-bar.scss";
+@import "./recent-posts.scss";
+@import "./results.scss";
+@import "./post.scss";
+
 html, body {
     font-family: 'EB Garamond', serif;
 }
@@ -7,11 +16,8 @@ ul {
     list-style-type: none;
 }
 
-@import "./mixins.scss";
-@import "./variables.scss";
-@import "./app.scss";
-@import "./home.scss";
-@import "./search-bar.scss";
-@import "./recent-posts.scss";
-@import "./results.scss";
-@import "./post.scss";
+.no-content {
+    color: $color-gray-one;
+    font-size: 14px;
+    line-height: 17px;
+}
