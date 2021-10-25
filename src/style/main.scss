@@ -1,10 +1,16 @@
 html, body {
     font-family: 'EB Garamond', serif;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
 
 @import "./variables.scss";
 @import "./home.scss";
 @import "./search-bar.scss";
+@import "./recent-posts.scss";
 @import "./app.scss";
 @import "./post.scss";
