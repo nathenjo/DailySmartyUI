@@ -1,3 +1,8 @@
+html, body {
+    font-family: 'EB Garamond', serif;
+}
+
+@import "./home.scss";
 @import "./app.scss";
 @import "./logo.scss";
 @import "./post.scss";

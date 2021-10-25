@@ -1,0 +1,32 @@
+.home {
+    display: grid;
+    align-content: space-around;
+    background-color: skyblue;
+    justify-items: center;
+    height: 600px;
+}
+
+.search-bar {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+
+    input {
+        width: 250px;
+        height: 40px;
+    }
+
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.recent-posts {
+    height: 120px;
+    width: 600px;
+    background-color: green;
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
