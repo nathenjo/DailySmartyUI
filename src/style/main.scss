@@ -2,7 +2,9 @@ html, body {
     font-family: 'EB Garamond', serif;
 }
 
+
+@import "./variables.scss";
 @import "./home.scss";
+@import "./search-bar.scss";
 @import "./app.scss";
-@import "./logo.scss";
 @import "./post.scss";
