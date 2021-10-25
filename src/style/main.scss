@@ -7,10 +7,11 @@ ul {
     list-style-type: none;
 }
 
-
+@import "./mixins.scss";
 @import "./variables.scss";
+@import "./app.scss";
 @import "./home.scss";
 @import "./search-bar.scss";
 @import "./recent-posts.scss";
-@import "./app.scss";
+@import "./results.scss";
 @import "./post.scss";
