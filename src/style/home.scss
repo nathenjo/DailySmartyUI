@@ -1,9 +1,14 @@
+.app-wrapper {
+    display: grid;
+    justify-content: center;
+}
+
 .home {
+    height: 100vh;
     display: grid;
     align-content: space-around;
     background-color: skyblue;
     justify-items: center;
-    height: 600px;
 }
 
 .search-bar {
